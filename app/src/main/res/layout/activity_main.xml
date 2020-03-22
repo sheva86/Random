@@ -36,11 +36,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/btnAddBound"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/edtSomax"
+        android:text="Add Bound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
         android:id="@+id/btnRandom"
         android:text="Random"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
+        android:padding="25dp"
         android:layout_below="@id/edtSomax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Reset"
+        android:layout_below="@id/edtSomax"
+        android:layout_marginHorizontal="300dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
