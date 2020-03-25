@@ -81,7 +81,11 @@ public class MainActivity extends AppCompatActivity {
                     mRandom = new Random();
                     int index = mRandom.nextInt(mArrayNumbers.size());
                     mValue = mArrayNumbers.get(index);
-                    mTvKetqua.append(mValue + "-");
+                    if (mArrayNumbers.size()==1){
+                        mTvKetqua.append(mValue + "");
+                    }else {
+                        mTvKetqua.append(mValue + "-");
+                    }
                     mArrayNumbers.remove(index);
                 }else {
 
